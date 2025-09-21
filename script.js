@@ -6,10 +6,6 @@ const resultsContainer = document.getElementById('results-container');
 const resultsList = document.getElementById('results-list');
 const errorMessage = document.getElementById('error-message');
 
-/**
- * Função para limpar os campos de input, a lista de resultados e as mensagens de erro.
- * Deixa a calculadora no estado inicial.
- */
 function clearCalculator() {
     number1Input.value = '';
     number2Input.value = '';
@@ -17,18 +13,11 @@ function clearCalculator() {
     errorMessage.textContent = ''; 
 }
 
-/**
- * Função para exibir mensagens de erro para o usuário de forma clara.
- * @param {string} message - A mensagem de erro a ser exibida.
- */
 function displayError(message) {
     errorMessage.textContent = message; 
     resultsContainer.classList.add('hidden'); 
 }
 
-/**
- * Função principal que executa os cálculos e atualiza a tela.
- */
 function performCalculations() {
 
     errorMessage.textContent = '';
