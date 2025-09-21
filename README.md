@@ -1,4 +1,4 @@
-# Calculadora Interativa 4-em-1 🧮
+# Calculadora Interativa 4 Operações 🧮
 
 > Aplicação web interativa que executa as quatro operações matemáticas fundamentais (soma, subtração, multiplicação e divisão) de forma simultânea. Este projeto foi desenvolvido do zero com foco na qualidade do código, na experiência do usuário e na robustez da aplicação.
 
