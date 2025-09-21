@@ -2,8 +2,6 @@
 
 > Aplicação web interativa que executa as quatro operações matemáticas fundamentais (soma, subtração, multiplicação e divisão) de forma simultânea. Este projeto foi desenvolvido do zero com foco na qualidade do código, na experiência do usuário e na robustez da aplicação.
 
-### ✨ **[Acesse a demonstração ao vivo aqui!](https://[SEU-NOME-DE-USUARIO].github.io/js-multi-operation-calculator/)**
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
