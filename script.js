@@ -19,7 +19,6 @@ function displayError(message) {
 }
 
 function performCalculations() {
-
     errorMessage.textContent = '';
 
     const num1 = parseFloat(number1Input.value);
@@ -38,7 +37,6 @@ function performCalculations() {
     if (num2 === 0) {
         divisao = "Não é possível dividir por zero";
     } else {
-    
         divisao = (num1 / num2).toFixed(4); 
     }
     
@@ -53,17 +51,16 @@ function performCalculations() {
 }
 
 calculateBtn.addEventListener('click', performCalculations);
-
 clearBtn.addEventListener('click', clearCalculator);
 
 number1Input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        performCalculations();
+        number2Input.focus(); 
     }
 });
 
 number2Input.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        performCalculations();
+        performCalculations(); 
     }
 });
